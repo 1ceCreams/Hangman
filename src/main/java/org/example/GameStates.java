@@ -1,12 +1,10 @@
 package org.example;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 
 public class GameStates {
-    List<String> states = new ArrayList<>();
+    private List<String> states = new ArrayList<>();
 
     public GameStates(){
         this.states.add(
