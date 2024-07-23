@@ -6,6 +6,10 @@ import java.util.List;
 public class GameStates {
     private List<String> states = new ArrayList<>();
 
+    public List<String> getStates() {
+        return states;
+    }
+
     public GameStates(){
         this.states.add(
                 "\n" +
